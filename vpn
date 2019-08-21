@@ -24,7 +24,7 @@ DAEMON=--daemon
 
 if [ ! -f /run/netns/vpn ]; then
 	#Create a new network namespace called vpn
-    sudo ip netns add vpn
+        sudo ip netns add vpn
 	#Start the loopback interface in the namespace
 	sudo ip netns exec vpn ip addr add 127.0.0.1/8 dev lo
 	sudo ip netns exec vpn ip link set lo up
