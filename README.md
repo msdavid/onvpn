@@ -7,9 +7,8 @@ All credits goes to /dev/schnouki
 before executing this script:
   
 
-```# sudo su -
-# mkdir -p /etc/netns/vpn
-# echo 'nameserver 8.8.8.8' > /etc/netns/vpn/resolv.conf
-# mkdir /etc/openvpn/config/
-# copy ovpn config and auth files here 
-# Change parameters in the file```
+```$ sudo su -
+$ mkdir -p /etc/netns/vpn
+$ echo 'nameserver 8.8.8.8' > /etc/netns/vpn/resolv.conf 
+$ mkdir /etc/openvpn/config/ # copy ovpn config and auth files here 
+# Change parameters in the vpn executable```
