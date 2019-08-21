@@ -1,4 +1,4 @@
-creates a network namespace with openvpn and attaches a single application
+creates a network namespace with openvpn and attaches a single application  
 usage:  
 `# vpn <your executable> <your parameters>`   
 Based on https://schnouki.net/post/2014/openvpn-for-a-single-application-on-linux/  
